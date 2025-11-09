@@ -10,7 +10,7 @@ Workflow: masscan whole network → parse → nmap `-sV --script vuln` → **nuc
 System: `masscan`, `nmap`, `nuclei`.
 **Nuclei path is hardcoded to**:
 ```
-/Users/hernowo/.pdtm/go/bin/nuclei
+/Users/<username>/.pdtm/go/bin/nuclei
 ```
 
 Python: `pyyaml`, `xmltodict`, `jinja2`
