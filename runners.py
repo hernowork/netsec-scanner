@@ -4,8 +4,8 @@ import shlex
 import time
 import os
 
-# Hardcoded nuclei path (per your request)
-NUCLEI_BIN = "/Users/hernowo/.pdtm/go/bin/nuclei"
+# CHANGE THIS!!!! Hardcoded nuclei path (per your request)
+NUCLEI_BIN = "/Users/<username>/.pdtm/go/bin/nuclei"
 
 def run_cmd(cmd, timeout=None, cwd=None, env=None):
     """Run a shell command, return (rc, stdout, stderr)."""
