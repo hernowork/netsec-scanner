@@ -102,7 +102,7 @@ def main():
         ]
         if not any(p.exists() for p in tmpl_candidates):
             print("[warn] nuclei templates directory not found in common locations.")
-            print("       Run once: /Users/hernowo/.pdtm/go/bin/nuclei -update && -update-templates")
+            print("       Run once: /Users/<username>/.pdtm/go/bin/nuclei -update && -update-templates")
 
     # Preflight nuclei version (only warn on failure)
     if not args.no_nuclei:
