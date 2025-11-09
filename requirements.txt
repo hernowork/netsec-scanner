@@ -1,0 +1,3 @@
+pyyaml
+xmltodict
+jinja2
